@@ -199,7 +199,7 @@ h1 {
 }
 
 /* MAIN - SECTION BUSINESS */
-.section-bss > h2 {
+.section-business > h2 {
     font-size: 35px;
 }
 
@@ -381,56 +381,102 @@ h1 {
     padding: 10px;
 }
 
-.col-partner {
+.col-ptn {
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.card-partner {
+.card-ptn {
     display: flex;
     flex-direction: column reverse;
 }
 
-.card-partner-sx {
+.card-ptn-sx {
     height: 500px;
     flex-basis: 65%;
     position: relative;
 }
 
-.card-partner-sx > img {
+.card-ptn-sx > img {
     display: block;
     max-height: 100%;
 }
 
-.card-partner-dx {
+.card-ptn-dx {
     height: 400px;
     flex-basis: 35%;
     position: relative;
     padding: 50px 10px;
 }
 
-.card-partner-dx > h3 {
+.card-ptn-dx > h3 {
     font-size: 25px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.card-partner-dx > p {
+.card-ptn-dx > p {
     font-size: 14px;
     line-height: 25px;
     color: #212121;
     margin-bottom: 30px;
 }
 
-.card-partner-dx > a {
+.card-ptn-dx > a {
     font-size: 14px;
     color: #212121;
     border: 1px solid #212121;
     padding: 7px 15px;
 }
 
-.card-partner-dx > a:hover {
+.card-ptn-dx > a:hover {
     color: #0050d0;
     border-color: #0050d0;
+}
+
+/* MAIN - SECTION ADVANTAGES */
+.section-advantages {
+    margin: 120px 0;
+}
+
+.section-advantages > h2 {
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+.col-adv {
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+}
+
+.card-adv {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-adv-img {
+    flex-basis: 50%;
+}
+
+.card-adv-img > img {
+    display: block;
+    max-width: 100%;
+}
+
+.card-adv-txt {
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.card-adv-txt > h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card-adv-txt > p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #212121;
 }
