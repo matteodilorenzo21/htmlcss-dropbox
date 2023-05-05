@@ -7,7 +7,7 @@
 
 /* GENERICS */
 body{
-    font-family: Open Sans;
+    font-family: 'Open Sans';
     padding-top: 60px;
 }
 
@@ -105,7 +105,7 @@ header {
     flex-grow: 1;
 }
 
-.box-logo > img {
+.box-logo {
     display: block;
     max-width: 100%;
     height: auto;
@@ -198,7 +198,7 @@ h1 {
     margin: 0 auto;
 }
 
-/* MAIN */
+/* MAIN - SECTION BUSINESS */
 .section-bss > h2 {
     font-size: 35px;
 }
@@ -216,7 +216,7 @@ h1 {
 }
 
 .checkbox:hover {
-    background-color: #3884ff;
+    background-color: #6ba4ff;
     border-color: #0050d0;
 }
 
@@ -320,6 +320,10 @@ h1 {
     cursor: pointer;
 }
 
+.card-bss-shopnow:hover {
+    opacity: 0.7;
+}
+
 .card-bss-powers {
     display: flex;
     flex-wrap: wrap;
@@ -330,7 +334,6 @@ h1 {
 
 /* COLUMN BUSINESS BOTTOM */
 .col-bss-bottom {
-    margin-top: 20px;
     flex-basis: 100%;
     padding: 10px;
 }
@@ -369,4 +372,65 @@ h1 {
     justify-content: flex-start;
     align-items: center;
     padding-top: 2%;
+}
+
+/* MAIN - SECTION PARTNER */
+.section-partner {
+    margin: 120px 0;
+    height: 500px;
+    padding: 10px;
+}
+
+.col-partner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-partner {
+    display: flex;
+    flex-direction: column reverse;
+}
+
+.card-partner-sx {
+    height: 500px;
+    flex-basis: 65%;
+    position: relative;
+}
+
+.card-partner-sx > img {
+    display: block;
+    max-height: 100%;
+}
+
+.card-partner-dx {
+    height: 400px;
+    flex-basis: 35%;
+    position: relative;
+    padding: 50px 10px;
+}
+
+.card-partner-dx > h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card-partner-dx > p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #212121;
+    margin-bottom: 30px;
+}
+
+.card-partner-dx > a {
+    font-size: 14px;
+    color: #212121;
+    border: 1px solid #212121;
+    padding: 7px 15px;
+}
+
+.card-partner-dx > a:hover {
+    color: #0050d0;
+    border-color: #0050d0;
 }
