@@ -19,8 +19,7 @@ body{
 
 .container-main {
     max-width: 850px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .container-pd-fix {
@@ -124,8 +123,7 @@ header {
 
 .navbar {
     height: 60px;
-    display: flex;
-    justify-content: space-between;
+    display: flex;   
     align-items: center;
     background-color: #fff;
     box-shadow: 0 1px 3px #a1a1a1;
@@ -659,4 +657,47 @@ h1 {
 
 .question:hover + .answer {
     display: block;
+}
+
+/* FOOTER */
+.col-ftr {
+    flex-basis: calc(100% / 5);
+    padding: 20px;
+}
+
+.card-ftr {
+    color: #fff;
+    padding: 100px 0;
+    justify-content: center;
+}
+
+li > h4 {   
+    margin-bottom: 15px;
+}
+
+.card-ftr > ul > li {
+    padding: 5px 0;
+}
+
+.card-ftr > ul > li > a {
+    color: #fff;
+    cursor: pointer;
+}
+
+li > a:hover {
+    text-decoration: underline;
+}
+
+.lang-select {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+.lang-select > a {
+    display: inline-block;
+    color: #fff;
+}
+
+.lang-select > a:hover {
+    text-decoration: underline;
 }
