@@ -682,6 +682,7 @@ li > h4 {
 .card-ftr > ul > li > a {
     color: #fff;
     cursor: pointer;
+    font-size: 12px;
 }
 
 li > a:hover {
@@ -700,4 +701,15 @@ li > a:hover {
 
 .lang-select > a:hover {
     text-decoration: underline;
+}
+
+.lang {
+    padding: 0 5px;
+}
+
+#lang-arrow-up {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 10px;
+    cursor: pointer;
 }
